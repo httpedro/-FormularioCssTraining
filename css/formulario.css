@@ -1,0 +1,15 @@
+input:invalid{
+    border-color: red;
+}
+
+input:focus{
+    border-color: royalblue !important;
+}
+
+input:valid{
+    border-color: green;
+}
+
+.formulario{
+    align-items: center;
+}

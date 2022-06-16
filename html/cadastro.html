@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/todos.css">
+    <link rel="stylesheet" href="../pluguins/bootstrap-5.0.0-beta3-dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <caixa class="caixa">
+        <borda class="borda">
+            <borda1 class="borda1">
+                <titulo id="titulo">
+                    <h2>HOMEKATRYU</h2>
+                </titulo>
+                <br>
+                <form method="POST" name="formulario" action="Salvar_Usuario" class="formulario">
+                    <label for="Nome">Nome:</label><span class='ErroNome'></span><br>
+                    <input type="text" id="Nome" name="Nome" required><br>
+                    <label for="Sobrenome">Sobrenome:</label><span class='ErroSobrenome'></span><br>
+                    <input type="text" id="Sobrenome" name="Sobrenome" required><br>
+                    <label for="Idade">Idade:</label><span class='ErroIdade'></span><br>
+                    <input type="number" id="Idade" name="Idade" required max="100"><br>
+                    <label for="Email">Email:</label><span class='ErroEmail'></span><br>
+                    <input type="email" id="Email" name="Email" required><br>
+                    <label for="Senha">Senha:</label><span class='ErroSenha'></span><br>
+                    <input type="password" id="Senha" name="Senha"required><br>
+                    <label for="Confirmar-Senha">Confirmar Senha:</label><span class='ErroConfirmarSenha'></span><br>
+                    <input type="password" id="Confirmar-Senha" name="Confirmar-Senha" required><br><br>
+                    
+                </form>
+                <botao id="botao-div">
+                    <button class="botao-elemento" type="submit">FORMULÁRIO</button>
+                </botao> 
+            </borda1>
+        </borda>
+    </caixa>
+    <fase1 class="fase1"></fase1>
+    
+</body>
+</html>
